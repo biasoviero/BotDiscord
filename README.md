@@ -1,76 +1,78 @@
 # BotDiscord
-Bot para o Discord em Python temático Elton John! Apresenta diversas funções como jogo da velha, forca e The Wiki Game e retorna, para cada caso, um gif do cantor. Toda a função tem o prefixo elton.
 
-## Lista de Comandos
+Elton John themed Discord bot developed with Python. It has various commands like Tic Tac Toe, Hangman Game and The Wiki Game. In order to to call them, you have to type the prefix *elton*. For each case, it returns an Elton John gif.
 
-Digitar 
+## Commands List
+
+Type
 ```
 elton info 
 ```
-para obter a lista e as descrições dos comandos.
+to get the list and description of each command.
 
 ![info](https://user-images.githubusercontent.com/79771418/217965256-a2d03738-aeb4-495a-8f7d-2d1472639d71.jpg)
 
-## Jogo da Velha
+## Tic Tac Toe
 
-Digitar
+Type
 ```
-elton jogo_da_velha @jogador1 @jogador2 
+elton jogo_da_velha @player1 @player2 
 ```
-para iniciar a partida e 
+to begin a game and 
 ```
-elton place [número de 1 a 9] 
+elton place [number between 1 and 9] 
 ```
-para inserir na posição desejada.
+to place in the desired position.
 
 ![jogo_velha](https://user-images.githubusercontent.com/79771418/217966117-d41a3563-50c5-4827-b4a2-fe1282e3ba23.jpg)
 
-(O comando não suporta um jogo com um só jogador pois a cada jogador é atribuído um símbolo, X ou O, esse é um caso apenas para ilustrar)
+(The command cannot start a game with only one player because each player gets a symbol, X or O, this case is just to show how it works)
 
-## Jogo da Forca
+## Hangman Game
 
-Digitar
+Type
 ```
 elton forca
 ```
-para iniciar um jogo e
+to start a game and
 ```
-elton letra [informe uma letra]
+elton letra [type a letter]
 ```
-para chutar uma letra.
+to guess a letter.
 
 ![forca1](https://user-images.githubusercontent.com/79771418/217967069-0274f973-0342-429a-98bb-a30fa513603e.jpg)
 
 ![geral-_-Test-Server-Discord-2023-02-09-21-07-42_Trim (1)](https://user-images.githubusercontent.com/79771418/217968587-3ce859ad-e835-4aeb-945e-7715c96f28ae.gif)
 
-## Sorteio de Times
+## Teams Division
 
-Digitar
+Type
 ```
-elton times nomes (os nomes são separados por espaços e podem ser inseridos quantos quiser)
+elton times (the names are separated by spaces and you can type any amount of names you want)
 ```
-para informar os nomes dos jogadores.
+to inform the players´ names.
 
 ![times](https://user-images.githubusercontent.com/79771418/217969565-657a4e90-b23c-43e2-92b2-98bd22b9de07.jpg)
 
 ## Server
 
-Digitar
+Type
 ```
 elton server
 ```
-para obter informações sobre o servidor.
+to get information about the server.
 
 ![server](https://user-images.githubusercontent.com/79771418/217969849-4a7888f6-1aac-46c8-8432-609d5ce66d5d.jpg)
 
-(Foi utilizado um servidor para testes, que não tem ícone e outras informações)
+(It has been used a test server, that doesn´t have an icon and other details).
 
 ## The Wiki Game
-Digitar
+
+Type
 ```
 elton wiki
 ```
-para sortear dois artigos aleatórios da Wikipedia para jogar The Wiki Game.
+to get 2 random articles from Wikipedia and play the Wiki Game.
 
 ![wiki](https://user-images.githubusercontent.com/79771418/217970199-99ab074e-c8ec-4837-b4d9-1be3c390a58f.jpg)
 
